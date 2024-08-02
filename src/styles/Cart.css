@@ -1,0 +1,24 @@
+.cart-page {
+    font-family: Arial, sans-serif;
+    padding: 40px 0;
+  }
+  
+  .cart-item {
+    border: none;
+    background-color: #f8f9fa;
+  }
+  
+  .cart-item .card-body {
+    text-align: center;
+  }
+  
+  .cart-item .card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+  }
+  
+  .cart-item .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  

@@ -1,0 +1,51 @@
+.menu-page {
+    padding-top: 50px; /* Adjust padding as needed */
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px; /* Add space below the title */
+  }
+  
+  .menu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Add space between cards */
+    height: 100%; /* Ensure cards take full height */
+  }
+  
+  .menu-card .card-img-top {
+    width: 100%; /* Ensure image takes full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the designated space */
+    margin-bottom: 15px; /* Add spacing below the image */
+  }
+  
+  .menu-card .card-title {
+    font-size: 1.5rem; /* Adjust title font size as needed */
+    margin-bottom: 10px; /* Add spacing below the title */
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px; /* Add space above the price */
+  }
+  
+  @media (min-width: 768px) {
+    .menu-card {
+      flex-direction: row; /* Display cards in a row for larger screens */
+      align-items: flex-start; /* Align items to the start */
+      text-align: left; /* Align text to the left */
+      height: auto; /* Reset height for larger screens */
+    }
+  
+    .menu-card .card-img-top {
+      width: 150px; /* Adjust image size for larger screens */
+      margin-right: 15px; /* Add spacing between images */
+      margin-bottom: 0; /* Remove margin bottom for inline display */
+    }
+  }
+  

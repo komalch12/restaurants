@@ -1,0 +1,86 @@
+/* Styles for the entire home page */
+.home-page {
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
+/* Styles for the hero section */
+.hero-section {
+  position: relative;
+  background-color: lemonchiffon;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0; /* Adjust padding as needed */
+}
+
+.hero-image-container {
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 600px; /* Limit maximum width */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center align the image */
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+
+.hero-text h1 {
+  color: whitesmoke;
+}
+
+/* Styles for the about section */
+.about-section {
+  text-align: center;
+}
+
+.about-section h2 {
+  margin-bottom: 30px; /* Adjust margin as needed */
+}
+
+.about-section p {
+  font-size: 1.2rem; /* Adjust font size */
+  color: #6c757d; /* Medium gray text color */
+}
+
+/* Styles for the menu highlights section */
+.menu-highlights {
+  text-align: center;
+}
+
+.menu-highlights h2 {
+  margin-bottom: 50px; /* Adjust margin as needed */
+  text-align: center;
+}
+
+.menu-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center align items vertically */
+  align-items: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+}
+
+.menu-card .card-img-top {
+  height: 250px; /* Adjust image height */
+  width: 350px;
+  object-fit: cover;
+  margin: 0 auto; /* Center align the image */
+}
+
+.menu-card .card-title {
+  font-size: 1.5rem; /* Adjust font size */
+}
+
+.menu-card .card-text {
+  font-size: 1.1rem; /* Adjust font size */
+  color: #6c757d; /* Medium gray text color */
+}

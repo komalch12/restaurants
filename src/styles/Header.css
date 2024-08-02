@@ -1,0 +1,21 @@
+.navbar {
+    padding: 15px 0;
+  }
+  
+  .navbar .navbar-brand img {
+    height: 40px; /* Adjust logo height as needed */
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff !important; /* Text color for links */
+    margin-left: 20px; /* Adjust spacing between nav links */
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: #ffc107 !important; /* Hover color for links */
+  }
+  
+  .navbar .navbar-nav .nav-link svg {
+    margin-right: 5px; /* Adjust icon spacing */
+  }
+  

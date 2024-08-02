@@ -1,0 +1,24 @@
+.services-page {
+    padding-top: 50px; /* Adjust padding as needed */
+  }
+  
+  .service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    text-align: center; /* Center align text */
+    height: 100%; /* Ensure cards take full height */
+  }
+  
+  .service-card .card-img-top {
+    width: 150px; /* Set a specific width for smaller images */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the designated space */
+    margin-bottom: 15px; /* Add spacing below the image */
+  }
+  
+  .service-card .card-title {
+    font-size: 1.5rem; /* Adjust title font size as needed */
+    margin-bottom: 10px; /* Add spacing below the title */
+  }
+  
